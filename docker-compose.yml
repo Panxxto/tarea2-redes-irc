@@ -1,0 +1,25 @@
+version: '3.8'
+
+networks:
+  red-irc:
+    driver: bridge
+
+services:
+  servidor-irc:
+    build: ./servidor
+    container_name: servidor-irc
+    networks:
+      - red-irc
+    ports:
+      - "6667:6667"
+    restart: unless-stopped
+
+  cliente-irc:
+    build: ./cliente
+    container_name: cliente-irc
+    networks:
+      - red-irc
+    stdin_open: true
+    tty: true
+    depends_on:
+      - servidor-irc
