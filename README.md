@@ -35,7 +35,7 @@ Se evalúa la interacción cliente-servidor operando deliberadamente en el puert
 
 ## Entregables
 
-* **Informe Técnico (Capítulos 1 y 2):** Archivo compilado [`informe/main.pdf`](informe/main.pdf) y código fuente LaTeX [`informe/main.tex`](informe/main.tex).
+* **Informe Técnico (Capítulos 1 y 2):** Archivo compilado [`informe/main.pdf`](informe/main.pdf).
 * **Captura de Red:** Archivo de paquetes original [`capturas/trafico_irc.pcapng`](capturas/trafico_irc.pcapng).
 * **Video Demostrativo (Máximo 8 minutos):** [Ver demostración en YouTube](https://youtu.be/TU_ENLACE_AQUI) *(Reemplazar con enlace definitivo)*.
 
