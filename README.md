@@ -80,10 +80,7 @@ La solución se implementa en un sistema anfitrión **Kali Linux**, comunicando 
 ├── servidor/
 │   └── Dockerfile                 # Imagen basada en inspircd/inspircd-docker
 ├── informe/
-│   ├── main.tex                   # Código fuente LaTeX del informe formal
 │   ├── main.pdf                   # Versión final compilada del informe
-│   ├── referencias.bib            # Bibliografía del proyecto
-│   └── capturas/                  # Evidencias visuales, figuras y diagramas
 ├── docker-compose.yml             # Orquestación de servicios, volúmenes y red
 └── README.md                      # Documentación principal del proyecto
 ```
